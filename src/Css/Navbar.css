@@ -1,0 +1,25 @@
+.navbar__container {
+  background-color: var(--blue);
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.navbar__links {
+  display: flex;
+  gap: 3rem;
+  border: none;
+}
+
+.nav__link {
+  cursor: pointer;
+  color: #333;
+  text-decoration: none !important;
+  color: var(--white);
+  font-weight: 400;
+  letter-spacing: 1.1px;
+}
