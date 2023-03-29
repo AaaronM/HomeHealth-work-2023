@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="navbar__container">
       <div className="navbar__logo">
-        <li>
+        <li className="nav__link__hover">
           <Link className="nav__link" to="/">
             Home
           </Link>
@@ -14,18 +14,18 @@ const Navbar = () => {
       </div>
 
       <div className="navbar__links">
-        <li>
+        <li className="nav__link__hover">
           <Link className="nav__link" to="/About">
             About
           </Link>
         </li>
-        <li>
+        <li className="nav__link__hover">
           <Link className="nav__link" to="/Services">
             Services
           </Link>
         </li>
 
-        <li>
+        <li className="nav__link__hover">
           <Link className="nav__link" to="/Contacts">
             Contacts
           </Link>

@@ -1,0 +1,80 @@
+.home__section__container {
+  background-color: var(--white);
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
+
+.home__container {
+  margin: 5rem;
+}
+
+.home__p__top {
+  font-size: 1.3rem;
+  color: var(--blue);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.home__h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.home__p__bttm {
+  font-size: 0.9rem;
+  color: rgb(113, 110, 110);
+  width: 50%;
+}
+
+.home__main__btn {
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: var(--white);
+  background-color: var(--blue);
+  border-radius: 10px;
+  border: none;
+  height: 2.3rem;
+  padding: 0 20px;
+  margin-top: 1rem;
+  transition: all 0.5s;
+}
+
+.home__main__btn:hover {
+  transform: translateY(-5px) scale(1.1);
+}
+
+.home__pic__cont {
+  margin-right: 7rem;
+  position: relative;
+  z-index: 6;
+}
+
+.home__pic {
+  height: 35rem;
+  border-radius: 40%;
+  z-index: 1000;
+}
+
+.pic_bg {
+  height: 30rem;
+  width: 30rem;
+  background-color: var(--yellow);
+  position: absolute;
+  top: 5rem;
+  left: -1rem;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.pic_bg_dotted {
+  height: 30.5rem;
+  width: 30.5rem;
+  border: 6px dotted var(--green);
+  position: absolute;
+  top: 4.3rem;
+  left: -1.7rem;
+  border-radius: 50%;
+  z-index: -2;
+}

@@ -22,4 +22,17 @@
   color: var(--white);
   font-weight: 400;
   letter-spacing: 1.1px;
+  transition: all 0.4s;
+}
+
+.nav__link:hover {
+  color: var(--green);
+}
+
+.nav__link__hover {
+  transition: all 0.5s;
+}
+
+.nav__link__hover:hover {
+  transform: scale(1.1) translateY(-3px);
 }
