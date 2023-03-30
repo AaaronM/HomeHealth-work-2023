@@ -1,0 +1,15 @@
+.slider_pics {
+  height: 480px;
+  width: 400px;
+  background-color: var(--yellow);
+  border-radius: 20px;
+}
+
+.slider_pics_container {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.slider_text {
+  text-align: center;
+}

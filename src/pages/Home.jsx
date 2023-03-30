@@ -3,6 +3,7 @@ import React from "react";
 import "../Css/Home.css";
 
 import Mainpic from "../IMG/doc_pic 1.png";
+import DocCaracel from "../components/DocCaracel";
 
 // import { AiOutlineHeart } from "react-icons/ai";
 // import { GiStethoscope } from "react-icons/gi";
@@ -10,11 +11,6 @@ import Mainpic from "../IMG/doc_pic 1.png";
 // import { FaHandHoldingHeart } from "react-icons/fa";
 
 import { CiHeart, CiHospital1, CiHome, CiPill } from "react-icons/ci";
-
-// CiHeart
-// CiHospital1
-// CiHome
-// CiPill
 
 const Home = () => {
   return (
@@ -100,7 +96,6 @@ const Home = () => {
                 <CiPill />
               </div>
               <div className="text-cont">
-                {" "}
                 <div>
                   <p className="service__info__heading">Expert Doctor</p>
                   <p className="service__info__text">
@@ -112,6 +107,9 @@ const Home = () => {
                 </div>
               </div>
             </div>
+
+            {/* _____________END OF SERVICES_________ */}
+            <DocCaracel />
           </div>
         </div>
       </div>
