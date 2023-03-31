@@ -1,13 +1,13 @@
 .home__section__container {
   background-color: var(--white);
   height: 100vh;
-
   display: flex;
   align-items: center;
 }
 
 .home__container {
   margin: 5rem;
+  position: relative;
 }
 
 .home__p__top {
@@ -20,6 +20,13 @@
 .home__h1 {
   font-size: 3rem;
   letter-spacing: 2px;
+}
+
+.h1_icon {
+  color: var(--green);
+  position: absolute;
+  height: 4rem;
+  width: 6rem;
 }
 
 .home__p__bttm {
@@ -53,7 +60,7 @@
 
 .home__pic {
   height: 35rem;
-  border-radius: 40%;
+  border-radius: 45%;
   z-index: 1000;
 }
 
@@ -62,7 +69,7 @@
   width: 30rem;
   background-color: var(--yellow);
   position: absolute;
-  top: 5rem;
+  top: 5.1rem;
   left: -1rem;
   border-radius: 50%;
   z-index: -1;
@@ -73,7 +80,7 @@
   width: 30.5rem;
   border: 6px dotted var(--green);
   position: absolute;
-  top: 4.3rem;
+  top: 4.6rem;
   left: -1.7rem;
   border-radius: 50%;
   z-index: -2;
@@ -107,7 +114,7 @@
 }
 
 .service {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   padding: 1rem;
   background-color: rgb(236, 233, 233);
   display: flex;
@@ -163,4 +170,15 @@
 
 .service__info__btn:hover {
   transform: translateY(-5px) scale(1.1);
+}
+
+.doc__h2__heading {
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--blue);
+  margin-top: 5rem;
+}
+
+.doc__h2__heading__p {
+  margin-top: -1rem;
 }

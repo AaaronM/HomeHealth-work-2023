@@ -3,8 +3,6 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/css/sea-green";
 import "../Css/Slider.css";
 
-import pic3 from "../IMG/pic_3.jpg";
-import pic5 from "../IMG/pic_5.jpg";
 import docpic from "../IMG/doc_pic 1.png";
 
 function DocCaracel() {

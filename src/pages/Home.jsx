@@ -4,11 +4,9 @@ import "../Css/Home.css";
 
 import Mainpic from "../IMG/doc_pic 1.png";
 import DocCaracel from "../components/DocCaracel";
-
-// import { AiOutlineHeart } from "react-icons/ai";
-// import { GiStethoscope } from "react-icons/gi";
-// import { BsFillHouseHeartFill } from "react-icons/bs";
-// import { FaHandHoldingHeart } from "react-icons/fa";
+import Consultation from "../components/Consultation";
+import Review from "../components/Review";
+import { TbActivityHeartbeat } from "react-icons/tb";
 
 import { CiHeart, CiHospital1, CiHome, CiPill } from "react-icons/ci";
 
@@ -18,7 +16,10 @@ const Home = () => {
       <div className="home__section__container">
         <div className="home__container">
           <p className="home__p__top">We are here for you</p>
-          <h1 className="home__h1">Your Healthy Life is Our First Priority.</h1>
+          <h1 className="home__h1">
+            Your Healthy Life is Our First Priority{" "}
+            <TbActivityHeartbeat className="h1_icon" />
+          </h1>
           <p className="home__p__bttm">
             From treating the rarest symptoms to performing the most complicated
             surgeries, We have expertise in your condition
@@ -108,8 +109,19 @@ const Home = () => {
               </div>
             </div>
 
+            <h2 className="doc__h2__heading">Our specialist doctor team</h2>
+            <p className="doc__h2__heading__p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+              numquam aut veniam adipisci, odit ratione tempore cumque eos!
+              Ipsa.
+            </p>
+
             {/* _____________END OF SERVICES_________ */}
             <DocCaracel />
+            {/* ____________CONSULTATION___________ */}
+            <Consultation />
+            {/* ________________REVIEW_______________ */}
+            <Review />
           </div>
         </div>
       </div>

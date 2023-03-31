@@ -1,0 +1,47 @@
+.container__consultation {
+  display: flex;
+  background-color: var(--green);
+  padding: 5rem;
+  position: relative;
+}
+
+.consultation__text {
+  width: 40%;
+  margin-left: 30rem;
+}
+
+.consultation__h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--white);
+}
+.consultation__p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--white);
+}
+
+.consultation__pic {
+  height: 420px;
+  top: -4rem;
+  left: 7rem;
+  position: absolute;
+}
+
+.consultation__pic__bg {
+  height: 300px;
+  width: 300px;
+  top: 1rem;
+  left: 7rem;
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--yellow);
+}
+
+.consultation__btn {
+  height: 2rem;
+  color: var(--white);
+  background-color: var(--blue);
+  border: none;
+  border-radius: 15px;
+}
