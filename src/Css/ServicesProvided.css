@@ -18,7 +18,7 @@
 .service__icon {
   height: 3.5rem;
   width: 3.5rem;
-  background-color: yellow;
+  background-color: var(--yellow);
   position: absolute;
   top: -1.4rem;
   right: 2.5rem;
@@ -29,7 +29,7 @@
 }
 
 .text__container {
-  background-color: red;
+  background-color: var(--blue);
   padding: 0.5rem;
   border-radius: 20px;
   z-index: 10;
@@ -53,9 +53,13 @@
   text-align: center;
   color: var(--white);
   font-size: 0.8rem;
+  border: 2px solid var(--yellow);
+  transition: all 0.4s;
+}
+.service__btn:hover {
+  transform: scale(1.1) translateY(-5px);
 }
 
 .two {
   margin-bottom: 10rem !important;
-  background-color: aqua;
 }

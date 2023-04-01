@@ -12,6 +12,14 @@ import Doc_consul51 from "../IMG/Subject.png";
 import { TbActivityHeartbeat } from "react-icons/tb";
 
 import { CiHeart, CiHospital1, CiHome, CiPill } from "react-icons/ci";
+import { AiFillHeart } from "react-icons/ai";
+import {
+  RiUserHeartLine,
+  RiHealthBookFill,
+  RiMentalHealthLine,
+} from "react-icons/ri";
+import { BiHappyBeaming, BiHomeHeart } from "react-icons/bi";
+import { MdOutlineHealthAndSafety } from "react-icons/md";
 
 const Home = () => {
   return (
@@ -135,14 +143,16 @@ const Home = () => {
                   alt="docpic"
                   className="pic__servicees"
                 />
-                <div className="circle1"></div>
-                <div className="circle2"></div>
-                <div className="circle3"></div>
-                <div className="circle4"></div>
-                <div className="circle5"></div>
-                <div className="circle6"></div>
-                <div className="circle7"></div>
+                <AiFillHeart className="circle1" />
+                <RiUserHeartLine className="circle2" />
+                <RiHealthBookFill className="circle3" />
+                <RiMentalHealthLine className="circle4" />
+                <BiHappyBeaming className="circle5" />
+                <MdOutlineHealthAndSafety className="circle6" />
+                <BiHomeHeart className="circle7" />
               </div>
+
+              <div />
             </div>
           </div>
         </div>
