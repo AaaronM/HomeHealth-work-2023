@@ -1,0 +1,61 @@
+.service__container__flex {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.service__container {
+  background-color: aquamarine;
+  width: 300px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  margin-left: 3rem;
+  position: relative;
+  border-radius: 20px;
+}
+
+.service__icon {
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: yellow;
+  position: absolute;
+  top: -1.4rem;
+  right: 2.5rem;
+  z-index: 20;
+
+  border-radius: 50%;
+  margin-bottom: 0.4rem;
+}
+
+.text__container {
+  background-color: red;
+  padding: 0.5rem;
+  border-radius: 20px;
+  z-index: 10;
+}
+
+.service__h2 {
+  font-size: 1rem;
+  color: var(--white);
+}
+
+.service__p {
+  color: var(--white);
+  font-size: 0.8rem;
+}
+
+.service__btn {
+  background-color: var(--blue);
+  width: 80px;
+  padding: 0.5rem;
+  border-radius: 20px;
+  text-align: center;
+  color: var(--white);
+  font-size: 0.8rem;
+}
+
+.two {
+  margin-bottom: 10rem !important;
+  background-color: aqua;
+}

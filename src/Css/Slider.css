@@ -8,6 +8,7 @@
 .slider_pics_container {
   margin-top: 5rem;
   margin-bottom: 5rem;
+  border-radius: 20px;
 }
 
 .slider_text {

@@ -36,6 +36,7 @@
   position: absolute;
   border-radius: 50%;
   background-color: var(--yellow);
+  box-shadow: 0 8px 32px 0 rgba(49, 82, 26, 0.37);
 }
 
 .consultation__btn {

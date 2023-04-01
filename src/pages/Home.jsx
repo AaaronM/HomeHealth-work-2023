@@ -6,6 +6,9 @@ import Mainpic from "../IMG/doc_pic 1.png";
 import DocCaracel from "../components/DocCaracel";
 import Consultation from "../components/Consultation";
 import Review from "../components/Review";
+import ServicesProvided from "../components/ServicesProvided";
+
+import Doc_consul51 from "../IMG/Subject.png";
 import { TbActivityHeartbeat } from "react-icons/tb";
 
 import { CiHeart, CiHospital1, CiHome, CiPill } from "react-icons/ci";
@@ -121,7 +124,26 @@ const Home = () => {
             {/* ____________CONSULTATION___________ */}
             <Consultation />
             {/* ________________REVIEW_______________ */}
+            <h2 className="review__h2">Check Out Recent Reviews</h2>
             <Review />
+            {/* _________________ServicesProvided____________ */}
+            <div className="service__home__cont">
+              <ServicesProvided />
+              <div className="div__pic">
+                <img
+                  src={Doc_consul51}
+                  alt="docpic"
+                  className="pic__servicees"
+                />
+                <div className="circle1"></div>
+                <div className="circle2"></div>
+                <div className="circle3"></div>
+                <div className="circle4"></div>
+                <div className="circle5"></div>
+                <div className="circle6"></div>
+                <div className="circle7"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

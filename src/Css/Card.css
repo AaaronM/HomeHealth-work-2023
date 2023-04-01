@@ -1,0 +1,35 @@
+.container__card {
+  background-color: rgb(224, 222, 222);
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.container__top {
+  display: flex;
+  padding: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.review__pic {
+  height: 105px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: var(--yellow);
+  border: 5px solid var(--white);
+}
+
+.icon__review {
+  color: var(--yellow);
+  margin-right: 2px;
+}

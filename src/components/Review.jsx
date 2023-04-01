@@ -1,19 +1,33 @@
 import React from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-import pic123 from "../IMG/pic_5.jpg";
+import Card from "./Card";
 
 function Review() {
   return (
     <div>
-      <Splide aria-label="My Favorite Images">
+      <Splide
+        aria-label="reviews"
+        options={{
+          rewind: true,
+          width: 1250,
+          gap: "1.5rem",
+          perPage: 3,
+        }}
+      >
         <SplideSlide>
-          <p>HELLO</p>
+          <Card />
         </SplideSlide>
         <SplideSlide>
-          <p>HELLO</p>
+          <Card />
         </SplideSlide>
         <SplideSlide>
-          <p>HELLO</p>
+          <Card />
+        </SplideSlide>
+        <SplideSlide>
+          <Card />
+        </SplideSlide>
+        <SplideSlide>
+          <Card />
         </SplideSlide>
       </Splide>
     </div>
